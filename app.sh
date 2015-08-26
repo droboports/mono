@@ -14,11 +14,11 @@ popd
 }
 
 ### MCS ###
-_build_mcs() {
-if [ ! -f /usr/bin/mcs ]; then
-  sudo apt-get install mono-mcs
-fi
-}
+# _build_mcs() {
+# if [ ! -f /usr/bin/mcs ]; then
+#   sudo apt-get install mono-mcs
+# fi
+# }
 
 ### MONO NATIVE ###
 _build_mono_native() {
